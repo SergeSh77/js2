@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(85, 89, 84);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    padding: 20px 0;
+}
+.block__item {
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+.cats {
+    width: 250px;
+    border-right: 3px solid black;
+    border-radius: 3px;
+}
+.img_cat {
+    width: 30px;
+}
